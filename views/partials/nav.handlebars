@@ -1,0 +1,22 @@
+<nav class="container">
+   
+<div class="hamburger" onclick="toggleMenu()">
+                 <div class="line"></div>
+                 <div class="line"></div>
+                 <div class="line"></div>
+            </div>
+
+         <li class="Nieuws">
+            <a href="/"><h4>Nieuws</h4> </a>
+        </li>
+
+        <ul class="menu menu-right" id="menu">
+            <li class="nav-item">
+                 <a href="/"><h4 class="hidden">Nieuws</h4> </a>
+             </li>
+    </nav>
+    <script>
+        function toggleMenu() {
+         const menu = document.getElementById('menu');
+     menu.classList.toggle('active');
+}</script>
