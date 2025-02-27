@@ -8,5 +8,8 @@ router.get("/", function(req, res, next) {
 router.get("/Binnenlands", function(req, res, next) {
   res.render("Binnenlands", { title: "Binnenlands nieuws" });
 });
+router.get("/sport", function(req, res, next) {
+  res.render("sport", { title: "Sport" });
+});
 module.exports = router;
  
