@@ -11,5 +11,8 @@ router.get("/Binnenlands", function(req, res, next) {
 router.get("/sport", function(req, res, next) {
   res.render("sport", { title: "Sport" });
 });
+router.get("/weer", function(req, res, next){
+  res.render("weer", { title: "Weer" });
+});
 module.exports = router;
  
